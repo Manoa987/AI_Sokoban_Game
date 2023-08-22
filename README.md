@@ -1,6 +1,6 @@
-## Sokoban Game
+# Sokoban Game
 This repository contains a program that allows solving the Sokoban game using various search methods and heuristics.
-# Content
+## Content
 The algorithms used in this repository are:
 - Breadth-First Search (BFS)
 - Depth-First Search (DFS)
@@ -18,7 +18,7 @@ Some are admissible:
 Some are not admissible:
 - Freedom Degrees: For each box, the number of walls (or boxes) it will be touching (losing the ability to move) is considered, and the option with more freedom of movement is chosen.
 
-# How to use
+## How to use
 ```bash
 ./python3 main.py
 ```
